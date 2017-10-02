@@ -18,7 +18,7 @@ header {
 }
 
 #about {
-	height: 800px;
+	height: 830px;
 }
 
 footer {
@@ -60,7 +60,7 @@ footer {
 nav {
 	width: 100%;
 	background-color: white;
-	opacity: .8;
+	opacity: .9;
 	position: fixed;
 	z-index: 2;
 }
@@ -86,8 +86,8 @@ nav ul li a {
 nav ul li a:hover {
 	font-weight: bold;
 	font-size: 16px;
-	transition: font-weight .1s;
-	transition: font-size .1s;
+	transition: font-weight .05s;
+	transition: font-size .05s;
 }
 
 header .half-width {
@@ -135,7 +135,7 @@ header .half-width ul li {
 /* WORK */
 
 #work {
-	background-color: #efcdbf;
+	background-color: #f2d8cd;
 	margin-top: -50px;
 }
 
@@ -190,7 +190,7 @@ header .half-width ul li {
 
 #about {
 	padding-top: 40px;
-	background-color: #efcdbf;
+	background-color: #f2d8cd;
 }
 
 #about .title {
@@ -230,17 +230,18 @@ header .half-width ul li {
 }
 
 #about .half-width p {
-	font-size: 14px;
+	font-family: 'Lora', serif;
+	font-size: 18px;
 	letter-spacing: 3px;
 	word-spacing: 2px;
-	line-height: 40px;
+	line-height: 30px;
 }
 
 #about h4 {
 	font-size: 14px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	width: 300px;
+	width: 200px;
 	margin: 0 auto;
 }
 
@@ -253,8 +254,12 @@ header .half-width ul li {
 	line-height: 20px;
 }
 
+#about .first p, #about .second p, #about .third p {
+	padding: 0 40px 0 40px;
+}
+
 #about .first img, #about .second img, #about .third img {
-	width: 48px;
+	width: 36px;
 	padding-bottom: 30px;
 }
 
@@ -322,7 +327,7 @@ header .half-width ul li {
 }
 
 #contact .half-width hr {
-	width: 550px;
+	width: 498px;
 	margin-left: 100px;
 	border-style: solid;
 	border-width: .5px;
@@ -360,9 +365,9 @@ header .half-width ul li {
 
 #arrow {
 	clear: both;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-right: 50%;
-	margin-left: 50%;
+	margin-left: 48.3%;
 }
 
 /* FOOTER */
