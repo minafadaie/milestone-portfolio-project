@@ -360,6 +360,7 @@ header .half-width ul li {
 
 #arrow {
 	clear: both;
+	margin-top: 20px;
 	margin-right: 50%;
 	margin-left: 50%;
 }
