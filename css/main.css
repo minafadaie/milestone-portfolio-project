@@ -10,15 +10,15 @@ header {
 }
 
 #work {
-	height: 528px;
-}
-
-#contact {
 	height: 600px;
 }
 
 #about {
 	height: 830px;
+}
+
+#contact {
+	height: 600px;
 }
 
 footer {
@@ -166,17 +166,7 @@ header .half-width ul li {
 	padding: 0 50px;
 }
 
-#work .first img {
-	padding-top: 20px;
-	width: 392px;
-}
-
-#work .second img {
-	padding-top: 20px;
-	width: 392px;
-}
-
-#work .third img {
+#work .first img, #work .second img, #work .third img {
 	padding-top: 20px;
 	width: 392px;
 }
@@ -184,6 +174,15 @@ header .half-width ul li {
 #work a:hover {
 	opacity: .8;
 	transition: opacity .5s;
+}
+
+#work .first p, #work .second p, #work .third p {
+	padding: 10px 40px 0 40px;
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: 2px;
+	word-spacing: 1px;
+	line-height: 20px;
 }
 
 /* ABOUT */
@@ -220,7 +219,7 @@ header .half-width ul li {
 }
 
 #about .half-width {
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 #about-img {
