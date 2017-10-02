@@ -22,7 +22,7 @@ header {
 }
 
 footer {
-	height: 50px;
+	height: 150px;
 }
 
 /* GRID */
@@ -368,15 +368,31 @@ header .half-width ul li {
 
 footer {
 	background-color: #172b3a;
-	text-align: center;
-	padding-top: 25px;
 }
 
-footer a {
+footer img {
+	float: left;
+	height: 110px;
+	padding-top: 20px;
+}
+
+footer ul {
+	padding: 0;
+	margin-top: 110px;
+	float: right;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+footer ul li a {
 	color: #FFFFFF;
+	text-transform: uppercase;
 	text-decoration: none;
-	font-size: 13px;
-	letter-spacing: 4px;
+	font-size: 12px;
+	letter-spacing: 6px;
+	margin-left: 20px;
 }
 
 /* PROJECT PAGES */
